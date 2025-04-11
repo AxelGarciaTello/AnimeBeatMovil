@@ -1,0 +1,63 @@
+# Archivos binarios y temporales
+bin/
+obj/
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+*.pidb
+
+# Archivos generados por IDEs
+.vscode/
+.idea/
+*.userprefs
+.vs/
+
+# Configuraciones de build
+*.csproj.user
+
+# Archivos de MacOS o Linux
+.DS_Store
+Thumbs.db
+
+# Configuración de Rider o JetBrains
+*.dotCover
+*.dotSettings
+*.dotSettings.user
+.idea/
+
+# Logs y archivos temporales
+*.log
+
+# Paquetes de NuGet descargados
+packages/
+project.lock.json
+project.assets.json
+
+# Archivos generados en el simulador o dispositivo
+*.apk
+*.aab
+*.ipa
+*.app
+*.xcuserstate
+
+# Carpetas de plataforma específicas que se regeneran
+**/Platforms/Android/obj/
+**/Platforms/Android/bin/
+**/Platforms/iOS/obj/
+**/Platforms/iOS/bin/
+**/Platforms/MacCatalyst/obj/
+**/Platforms/MacCatalyst/bin/
+**/Platforms/Tizen/obj/
+**/Platforms/Tizen/bin/
+**/Platforms/Windows/obj/
+**/Platforms/Windows/bin/
+
+# Archivos de build intermedios
+*.dbmdl
+*.dbproj.schemaview
+*.pdb
+*.mdb
+
+# Configuración de usuario
+*.launchSettings.json

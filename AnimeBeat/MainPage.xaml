@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="AnimeBeat.MainPage">
+
+    <ScrollView>
+        <StackLayout>
+            <Label Text="Noticias" FontSize="24" HorizontalOptions="Center" Margin="10" />
+            <ListView x:Name="NewsListView" HasUnevenRows="True">
+                <ListView.ItemTemplate>
+                    <DataTemplate>
+                        <ViewCell Tapped="OnViewCellTapped">
+                            <StackLayout Padding="10">
+                                <Label Text="{Binding titulo}" FontSize="18" FontAttributes="Bold" />
+                                <Label Text="{Binding noticia}" FontSize="14" LineBreakMode="WordWrap" />
+                            </StackLayout>
+                        </ViewCell>
+                    </DataTemplate>
+                </ListView.ItemTemplate>
+            </ListView>
+        </StackLayout>
+    </ScrollView>
+
+</ContentPage>
